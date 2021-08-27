@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             var incomingData = ""
 
             // change to your remote server IP and port
-            sock = init("10.0.0.14", 9090)
+            sock = init("193.253.115.56", 9090)
 
             // send a hello to the remote server
             sendData(sock, "Hello Server!")
